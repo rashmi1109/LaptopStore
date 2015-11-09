@@ -1,3 +1,9 @@
+drop database thelaptopstore;
+
+create database thelaptopstore;
+
+use thelaptopstore;
+
 drop table shippingAddress;
 
 create table shippingAddress
@@ -13,8 +19,8 @@ country char(15),
 mobileNo char(10)
 );
 
-insert into shippingAddress(line1, line2, city, state, pincode, country, mobileNo)
-values('224D Ashford Green', 'Barton Creek Dr', 'Charlotte', 'NC', '28262', 'USA', '9805855955');
+insert into shippingAddress(firstname, lastname, line1, line2, city, state, pincode, country, mobileNo)
+values('Akash', 'Ramesh', '224D Ashford Green', 'Barton Creek Dr', 'Charlotte', 'NC', '28262', 'USA', '9805855955');
 
 
 drop table billingAddress;
@@ -32,6 +38,6 @@ country char(15),
 mobileNo char(10)
 );
 
-insert into billingAddress(line1, line2, city, state, pincode, country, mobileNo)
-values('224D Ashford Green', 'Barton Creek Dr', 'Charlotte', 'NC', '28262', 'USA', '9805855955');
+insert into billingAddress(firstname, lastname, line1, line2, city, state, pincode, country, mobileNo)
+values('Rashmi', 'Gupta', '224D Ashford Green', 'Barton Creek Dr', 'Charlotte', 'NC', '28262', 'USA', '9805855955');
 

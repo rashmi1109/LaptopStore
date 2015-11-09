@@ -35,35 +35,35 @@
 <table>
 <tr>
     <td><label>Username:</label></td>
-  <td><input type="text" name="username" id="username" class="form-control" ></td>
+  <td><input type="text" name="username" id="username" class="form-control"  required></td>
 </tr>
 <tr> 
     <td><label>First name:</label></td>
-  <td><input type="text" name="firstname" id="firstName" class="form-control" ></td>
+  <td><input type="text" name="firstname" id="firstName" class="form-control"  required></td>
 </tr>
 <tr>
   <td>Last name:</td>
-  <td><input type="text" name="lastname" id="lastName" class="form-control" ></td>
+  <td><input type="text" name="lastname" id="lastName" class="form-control"  required></td>
 </tr>
 <tr>
   <td>Email:</td>
-  <td><input type="text" name="email" id="email" class="form-control" ></td>
+  <td><input type="email" name="email" id="email" class="form-control"  required></td>
 </tr>
 <tr>
   <td>Re-enter Email:</td>
-  <td><input type="text" name="Re-enter Email" id="reemail" class="form-control" ></td>
+  <td><input type="email" name="Re-enter Email" id="reemail" class="form-control" required ></td>
   </tr>
 <tr>
   <td>Password:</td>
-  <td><input type="password" name="Password" id="password" class="form-control" ></td>
+  <td><input type="password" name="Password" id="password" class="form-control"  required></td>
   </tr>
 <tr>
   <td>Re-enter Password:</td>
-  <td><input type="password" name="Re-enter Password" id="repassword" class="form-control" ></td>
+  <td><input type="password" name="Re-enter Password" id="repassword" class="form-control"  required></td>
   </tr>
 <tr>
   <td>Phone Number:</td>
-  <td><input type="text" name="phonenumber" id="phonenumber" class="form-control" ></td>
+  <td><input type="text" name="phonenumber" id="phonenumber" class="form-control" required type="tel" pattern="^\d{3}-\d{3}-\d{4}$"></td>
   </tr>
 <tr>
   <td><input type="radio" name="sex" value="male" >Male</td>
@@ -75,7 +75,7 @@
 <td>
   <a href="#">Forgot Password?
 </td>
-  <td><input type="button" value="Submit" class="btn btn-warning" onclick="submitForm();">
+  <td><input type="submit" value="Submit" class="btn btn-warning" onclick="submitForm();">
   </td>
 </tr>
 
