@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Database;
+package uncc.tls.Db;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -15,7 +15,7 @@ import java.sql.SQLException;
  * @author Rashmi Gupta
  */
 public class UserDB {
-     public void addUser(Beans.User u) throws ClassNotFoundException, SQLException
+     public void addUser(uncc.tls.modals.User u) throws ClassNotFoundException, SQLException
     {
         System.out.println("We are in add USer");
         Class.forName("com.mysql.jdbc.Driver");

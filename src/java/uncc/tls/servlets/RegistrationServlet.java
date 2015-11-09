@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Servlets;
+package uncc.tls.servlets;
 
-import Beans.User;
-import Database.UserDB;
+import uncc.tls.modals.User;
+import uncc.tls.Db.UserDB;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.SQLException;
@@ -88,14 +88,10 @@ public class RegistrationServlet extends HttpServlet {
         try {
             udb.addUser(u);
             getServletContext().getRequestDispatcher("/login.jsp").forward(request, response);
+            
         } catch (ClassNotFoundException | SQLException ex) {
             Logger.getLogger(RegistrationServlet.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
-        
-        
-        
-        
         
     }
 

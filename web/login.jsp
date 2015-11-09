@@ -30,19 +30,21 @@
                <li><a href="#">Contact Us</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-               <li><a href="dealerregistration.html"><span class="glyphicon glyphicon-briefcase"></span> Dealer Sign Up</a></li>
-               <li><a href="registration.html"><span class="glyphicon glyphicon-user"></span> User Sign Up</a></li>
-               <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+               <li><a href="dealerregistration.jsp"><span class="glyphicon glyphicon-briefcase"></span> Dealer Sign Up</a></li>
+               <li><a href="registration.jsp"><span class="glyphicon glyphicon-user"></span> User Sign Up</a></li>
+               <li><a href="login.jsp"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
             </ul>
          </div>
       </div>
    </nav>
    <div class="container">
-      	  <table>
-                    <tr><td><b>Email ID:</b></td><td><input type="text" placeholder="Enter Email ID" size="15" required maxlength="20"></td></tr>
-                    <tr><td><b>Password:</b></td><td><input type="password" placeholder="Enter Password" size="15" required maxlength="20" ></td></tr>
-                    <tr><td></td><td><input type="button" value="Login" onclick="loginconfirmAlertbox()"/></td></tr>
-</table>                               
+       <center style="margin-top:10%;">
+            <table>
+                    <tr><td><b>Email ID:</b></td><td><input type="text" placeholder="Enter Email ID" size="15" required maxlength="20" class="form-control"></td></tr>
+                    <tr><td><b>Password:</b></td><td><input type="password" placeholder="Enter Password" size="15" required maxlength="20" class="form-control" ></td></tr>
+                    <tr><td></td><td><input type="button" value="Login" class="btn btn-primary" onclick="loginconfirmAlertbox()"/></td></tr>
+            </table>      
+       </center>
     </div>
 </body>
 </html>

@@ -2,11 +2,27 @@
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
         <servlet-name>RegistrationServlet</servlet-name>
-        <servlet-class>Servlets.RegistrationServlet</servlet-class>
+        <servlet-class>uncc.tls.servlets.RegistrationServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BillingAddressServlet</servlet-name>
+        <servlet-class>uncc.tls.servlets.BillingAddressServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ShippingAddressServlet</servlet-name>
+        <servlet-class>uncc.tls.servlets.ShippingAddressServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>RegistrationServlet</servlet-name>
         <url-pattern>/RegistrationServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BillingAddressServlet</servlet-name>
+        <url-pattern>/BillingAddressServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ShippingAddressServlet</servlet-name>
+        <url-pattern>/ShippingAddressServlet</url-pattern>
     </servlet-mapping>
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
