@@ -19,7 +19,7 @@ public class UserDB {
     {
         System.out.println("We are in add USer");
         Class.forName("com.mysql.jdbc.Driver");
-        Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/thelaptopstore", "root", "root");   
+        Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/thelaptopstore", "root", "thesstar");   
         String query= "insert into userinfo values(default,?,?,?,?,?,?,?)";
         PreparedStatement ps= con.prepareStatement(query);
         ps.setString(1,u.getUserName());

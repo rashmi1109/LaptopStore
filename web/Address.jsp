@@ -95,7 +95,7 @@
    
       <h2>Enter Billing Address</h2>
       	
-      	<form name="bill_address" action="BillingAddress" method="POST">
+      	<form name="bill_address" action="BillingAddressServlet" method="POST">
       	 <table>
       	 		<tr>
       	 			<td><label>First Name:</label></td>

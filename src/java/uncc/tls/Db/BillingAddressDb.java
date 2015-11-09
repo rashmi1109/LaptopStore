@@ -23,7 +23,7 @@ public class BillingAddressDb {
         try{
         System.out.println("We are in add Billing Address Adding");
         Class.forName("com.mysql.jdbc.Driver");
-        Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/thelaptopstore", "root", "root");   
+        Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/thelaptopstore", "root", "thesstar");   
         String query= "insert into billingAddress values(?,?,?,?,?,?,?,?,?)";
         PreparedStatement ps= con.prepareStatement(query);
         ps.setString(1, ba.getFirstname());
