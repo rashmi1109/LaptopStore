@@ -17,7 +17,7 @@
          <div>
             <ul class="nav navbar-nav">
                <li class="active"><a href="index.jsp">Home</a></li>
-               <li><a href="#">Today's Best Deals</a></li>
+               <li><a href="customOffers.jsp">Today's Best Deals</a></li>
                <li><a href="#">About Us</a></li>
                <li><a href="#">Contact Us</a></li>
             </ul>

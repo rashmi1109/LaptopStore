@@ -90,7 +90,7 @@ public class BillingAddressServlet extends HttpServlet {
         try{
             BillingAddressDb badb = new BillingAddressDb();
             badb.addBillingAddress(ba);
-            getServletContext().getRequestDispatcher("/cart.jsp").forward(request, response);            
+            getServletContext().getRequestDispatcher("/payment.jsp").forward(request, response);            
         }
         catch(ClassNotFoundException | SQLException ex){
             Logger.getLogger(RegistrationServlet.class.getName()).log(Level.SEVERE, null, ex);            

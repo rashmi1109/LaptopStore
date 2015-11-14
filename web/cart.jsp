@@ -70,7 +70,7 @@
 		 	 <select><option>1</option><option>2</option><option>3</option><option>4</option></select>
 		 </td>
          </tr>
-         <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td><button><a href="addressPage.jsp">Proceed to checkout</a></button></td></tr>
+         <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td><button><a href="Address.jsp">Proceed to checkout</a></button></td></tr>
 
 </table>               
     </div>

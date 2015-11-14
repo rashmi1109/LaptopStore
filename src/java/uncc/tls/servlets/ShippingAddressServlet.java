@@ -92,7 +92,7 @@ public class ShippingAddressServlet extends HttpServlet {
         try{
             ShippingAddressDb sadb = new ShippingAddressDb();
             sadb.addShippingAddress(sa);
-            getServletContext().getRequestDispatcher("/cart.jsp").forward(request, response);            
+            getServletContext().getRequestDispatcher("/payment.jsp").forward(request, response);            
         }
         catch(ClassNotFoundException | SQLException ex){
             Logger.getLogger(RegistrationServlet.class.getName()).log(Level.SEVERE, null, ex);            
