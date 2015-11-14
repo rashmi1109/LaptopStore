@@ -24,7 +24,7 @@ public class ShippingAddressDb {
         try{
         System.out.println("We are inside Shipping Address DB class");
         Class.forName("com.mysql.jdbc.Driver");
-        Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/thelaptopstore", "root", "thesstar");   
+        Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/thelaptopstore", "root", "root");   
         String query= "insert into shippingaddress values(?,?,?,?,?,?,?,?,?)";
         PreparedStatement ps= con.prepareStatement(query);
         ps.setString(1, sa.getFirstname());

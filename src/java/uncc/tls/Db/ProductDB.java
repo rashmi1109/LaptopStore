@@ -23,7 +23,7 @@ public class ProductDB {
     {
         ArrayList<Product> pall= new ArrayList();
         Class.forName("com.mysql.jdbc.Driver");
-        Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/thelaptopstore", "root", "thesstar");
+        Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/thelaptopstore", "root", "root");
         String query= "SELECT * FROM products;";
         Statement stmt=con.createStatement();
         ResultSet rs=stmt.executeQuery(query);
