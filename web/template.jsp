@@ -3,7 +3,7 @@
     Created on : Nov 8, 2015, 5:32:11 PM
     Author     : Rashmi Gupta
 --%>
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -38,11 +38,32 @@
       </div>
    </nav>
    <div class="container">
-      	  <table>
-                    <tr><td><b>Email ID:</b></td><td><input type="text" placeholder="Enter Email ID" size="15" required maxlength="20"></td></tr>
-                    <tr><td><b>Password:</b></td><td><input type="password" placeholder="Enter Password" size="15" required maxlength="20" ></td></tr>
-                    <tr><td></td><td><input type="button" value="Login" onclick="loginconfirmAlertbox()"/></td></tr>
-</table>                               
+       <table class="table">
+           <tr>
+               <th>Product ID</th>
+               <th>Product Name</th>
+               <th>Price</th>
+               <th>Discount</th>
+               <th>Processor</th>
+               <th>Ram</th>
+               <th>Storage</th>
+           </tr>
+           
+                 <c:forEach var="product" items="${ProductInfo}">
+                     <tr>
+                    <td>${product.productID}</td> 
+                    <td>${product.productName}</td>
+                     <td>${product.price}</td>
+                      <td>${product.discount}</td>
+                       <td>${product.processor}</td>
+                       <td>${product.ram}</td>
+                       <td>${product.storage}</td>
+                        </tr>
+                </c:forEach>
+                    
+                
+          
+       </table>
     </div>
 </body>
 </html>
