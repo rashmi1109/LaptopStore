@@ -6,7 +6,11 @@
      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    
+   <style>
+       tr{
+           
+       }
+   </style>
 </head>
 <body>
 <nav class="navbar navbar-inverse fixed">
@@ -32,7 +36,7 @@
     <div class="container">
 <form id="registration-form" action="RegistrationServlet" method="POST">
     
-<table>
+<table style="margin-right:20px;">
 <tr>
     <td><label>Username:</label></td>
   <td><input type="text" name="username" id="username" class="form-control"  required></td>
@@ -42,32 +46,32 @@
   <td><input type="text" name="firstname" id="firstName" class="form-control"  required></td>
 </tr>
 <tr>
-  <td>Last name:</td>
+    <td><label>Last name:</label></td>
   <td><input type="text" name="lastname" id="lastName" class="form-control"  required></td>
 </tr>
 <tr>
-  <td>Email:</td>
+    <td><label>Email:</label></td>
   <td><input type="email" name="email" id="email" class="form-control"  required></td>
 </tr>
 <tr>
-  <td>Re-enter Email:</td>
+    <td><label>Re-enter Email:</label></td>
   <td><input type="email" name="Re-enter Email" id="reemail" class="form-control" required ></td>
   </tr>
 <tr>
-  <td>Password:</td>
+    <td><label>Password:</label></td>
   <td><input type="password" name="Password" id="password" class="form-control"  required></td>
   </tr>
 <tr>
-  <td>Re-enter Password:</td>
+    <td><label>Re-enter Password:</label></td>
   <td><input type="password" name="Re-enter Password" id="repassword" class="form-control"  required></td>
   </tr>
 <tr>
-  <td>Phone Number:</td>
-  <td><input type="text" name="phonenumber" id="phonenumber" class="form-control" required type="tel" pattern="^\d{3}-\d{3}-\d{4}$"></td>
+    <td><label>Phone Number:(XXX-XXX-XXXX)</label></td>
+  <td><input name="phonenumber" id="phonenumber" class="form-control" required type="tel" pattern="^\d{3}-\d{3}-\d{4}$"></td>
   </tr>
-<tr>
-  <td><input type="radio" name="sex" value="male" >Male</td>
-  <td><input type="radio" name="sex" value="female">Female</td>
+<tr>  
+    <td><label>Gender:</label></td>
+    <td><input type="radio" name="sex" value="male" >Male <br/><input type="radio" name="sex" value="female">Female</td>
   </tr>
 
 

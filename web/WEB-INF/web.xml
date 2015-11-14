@@ -12,6 +12,10 @@
         <servlet-name>ShippingAddressServlet</servlet-name>
         <servlet-class>uncc.tls.servlets.ShippingAddressServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>PaymentServlet</servlet-name>
+        <servlet-class>uncc.tls.servlets.PaymentServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>RegistrationServlet</servlet-name>
         <url-pattern>/RegistrationServlet</url-pattern>
@@ -23,6 +27,10 @@
     <servlet-mapping>
         <servlet-name>ShippingAddressServlet</servlet-name>
         <url-pattern>/ShippingAddressServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PaymentServlet</servlet-name>
+        <url-pattern>/PaymentServlet</url-pattern>
     </servlet-mapping>
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>

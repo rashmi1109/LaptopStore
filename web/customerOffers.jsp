@@ -12,7 +12,8 @@ and open the template in the editor.
 -->
 <html>
 <head>
-   <title>Customer Offers | The Laptop Store</title>
+   <title>HOME | The Laptop Store</title>
+   <link rel="stylesheet" href="custom.css">
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -45,28 +46,28 @@ and open the template in the editor.
           <h1><font face='verdana' color='red'>OFFERS!!!</font></h1>
          <div class="col-sm-4">
             <div class="thumbnail">
-               <img src="img.jpg" alt="Laptop Image" width="250" height="200">
+               <img src="images/H1_l.jpg" alt="Laptop Image" width="250" height="200">
                <p><strong>HP 15-ac120nr</strong></p>
-               <p><font color='red'>Buy 5 get 30% discount</font></p>
-               <p><del>$2271.4</del>&nbsp;<font color='red'>$1589.98</font></p>
+               <p><font color='red'>10% discount</font></p>
+               <p><del>$454.28</del>&nbsp;<font color='red'>$408.85</font></p>
                
             </div>
          </div>
          <div class="col-sm-4">
             <div class="thumbnail">
-               <img src="img.jpg" alt="Laptop Image" width="250" height="200">
+               <img src="images/H2_l.jpg" alt="Laptop Image" width="250" height="200">
                <p><strong>HP Pavilion 13-s120nr</strong></p>
-               <p><font color='red'>Buy 3 get 15% discount</font></p>
-               <p><del>$1377.00</del>&nbsp;<font color='red'>$1170.45</font></p>
+               <p><font color='red'>9% discount</font></p>
+               <p><del>$459</del>&nbsp;<font color='red'>$417.69</font></p>
                
             </div>
          </div>
          <div class="col-sm-4">
             <div class="thumbnail">
-               <img src="img.jpg" alt="Laptop Image" width="250" height="200">
+               <img src="images/D12_l.jpg" alt="Laptop Image" width="250" height="200">
                <p><strong>Dell Inspiron i7359-1145SLV</strong></p>
-               <p><font color='red'>Buy 6 get 25% discount</font></p>
-               <p><del>$3299.94</del>&nbsp;<font color='red'>$2474.95</font></p>
+               <p><font color='red'>11% discount</font></p>
+               <p><del>$549.99</del>&nbsp;<font color='red'>$489.49</font></p>
                
             </div>
          </div>
@@ -76,28 +77,28 @@ and open the template in the editor.
 	     <div class="row text-center">
          <div class="col-sm-4">
             <div class="thumbnail">
-               <img src="img.jpg" alt="Laptop Image" width="250" height="200">
+               <img src="images/D5_l.jpg" alt="Laptop Image" width="250" height="200">
                <p><strong>Dell Inspiron 15 5000 Series</strong></p>
-               <p><font color='red'>Buy 3 get 20% discount</font></p>
-               <p><del>$2247</del>&nbsp;<font color='red'>$1797.60</font></p>
+               <p><font color='red'>10% discount</font></p>
+               <p><del>$749</del>&nbsp;<font color='red'>$674.10</font></p>
                
             </div>
          </div>
          <div class="col-sm-4">
             <div class="thumbnail">
-               <img src="img.jpg" alt="Laptop Image" width="250" height="200">
+               <img src="images/L1_l.jpg" alt="Laptop Image" width="250" height="200">
                <p><strong>Lenovo Ideapad 100</strong></p>
-               <p><font color='red'>Buy 10 get 35% discount</font></p>
-               <p><del>$3269.00</del>&nbsp;<font color='red'>$2124.85</font></p>
+               <p><font color='red'>13% discount</font></p>
+               <p><del>$326.90</del>&nbsp;<font color='red'>$284.40</font></p>
                
             </div>
          </div>
          <div class="col-sm-4">
             <div class="thumbnail">
-               <img src="img.jpg" alt="Laptop Image" width="250" height="200">
+               <img src="images/L2_l.jpg" alt="Laptop Image" width="250" height="200">
                <p><strong>Lenovo G50</strong></p>
-               <p><font color='red'>Buy 4 get 25% discount</font></p>
-               <p><del>$1595.40</del>&nbsp;<font color='red'>$1196.55</font></p>
+               <p><font color='red'>10% discount</font></p>
+               <p><del>$398.85</del>&nbsp;<font color='red'>$358.97</font></p>
                
             </div>
          </div>
